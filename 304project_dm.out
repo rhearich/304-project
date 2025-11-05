@@ -1,0 +1,61 @@
+
+
+Command line
+
+./spheric -halo -Nhalo 3000000 -Mhalo 1 -a 1 -b 3 -c 1 -rs 3.6 -rcutoff 55 -name 304project_dm 
+
+Halo model properties
+
+alpha = 1
+beta  = 3
+gamma = 1
+rho0  =  7.0902607e-04 MU LU^-3
+rs    =  3.6000000e+00 LU
+rhalf =  2.5145718e+01 LU
+rcutoff =  5.5000000e+01 LU
+rdecay  =  1.6500000e+01 LU
+
+System properties
+
+rvir    =  2.7372803e+01 LU
+rinner  =  3.6000000e-03 LU
+router  =  3.6000000e+02 LU
+
+Mhalo(rs)      =  8.0291199e-02 MU
+Mhalo(rhalf)   =  4.9999925e-01 MU
+Mhalo(rvir)    =  5.2727559e-01 MU
+Mhalo(rinner)  =  2.0743471e-07 MU
+Mhalo(router)  =  9.9999988e-01 MU
+Mhalo(rcutoff) =  7.6955679e-01 MU
+MparticleHalo  =  3.3333333e-07 MU
+
+Sampling properties
+
+|Cr| =  1.0306561e-15 LU       Cr = (-9.5363265e-16, -3.4294725e-16, -1.8768037e-16) MU
+|Cv| =  2.3955392e-18 LU TU^-1 Cv = (-1.0160898e-18, -2.1692245e-18, +2.5199474e-20) LU TU^-1
+
+Etot = -9.1290494e-03 MU LU^2 TU^-2
+Ekin = +9.1372571e-03 MU LU^2 TU^-2
+Epot = -1.8266306e-02 MU LU^2 TU^-2
+Rvir = |2*Ekin/Epot| = 1.00045
+
+Ntot                =  3.0000000e+06 = 3000000
+rimp                =  5.6309364e-03 LU
+r1                  =  4.5589737e-03 LU
+r100                =  4.5589737e-02 LU
+Mtheo               =  0.0000000e+00 MU
+Msamp               =  1.0000000e+00 MU
+(Msamp-Mtheo)/Mtheo =            inf
+Random seed         =  1.7621396e+09
+
+Times for individual steps
+
+Calculation of halo properties and initialisation of grid in r: 0.05868 seconds.
+Initialisation of grid for distribution function: 0.638734 seconds.
+Setting particle positions: 0.162474 seconds
+Setting particle velocities: 1.34732 seconds
+Setting remaining particle attributes: 0.004667 seconds
+Calculating a few things and correct center of mass: 0.212599 seconds
+Selecting star particles: 0.009799 seconds!
+Writing output: 4.27238 seconds
+Total time: 6.70665 seconds
